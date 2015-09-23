@@ -3,8 +3,24 @@
 ## Node attributes
 
 * nodeName
+
+  返回节点名称
+  
+      document.nodeName //document
+  
 * nodeType
+
+  返回节点常良值
+  
+      document.nodeType //9
+      document.querySelector('a').nodeType == 1 //判断是否是需要的节点
+  
 * ownerDocument
+
+  ownerDocument属性返回当前节点所在的顶层文档对象，即document对象。
+  
+      div.ownerDocument // document
+      
 * nextSibling
 * previousSibling
 * parentNode
